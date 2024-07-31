@@ -1,0 +1,1 @@
+# vayu-apt-config-stable
