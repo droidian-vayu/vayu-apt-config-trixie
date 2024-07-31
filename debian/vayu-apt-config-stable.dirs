@@ -1,0 +1,4 @@
+/usr/share/vayu-apt-config/preferences.d
+/usr/share/vayu-apt-config/sources.list.d
+/etc/apt/sources.list.d
+/etc/apt/preferences.d

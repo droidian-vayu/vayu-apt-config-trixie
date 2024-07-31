@@ -1,0 +1,17 @@
+Source: vayu-apt-config-stable
+Maintainer: droidian-vayu Github Org
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 10),
+               debhelper-compat (= 13),
+Standards-Version: 4.5.0.3
+
+Package: vayu-apt-config-stable
+Architecture: all
+Pre-Depends: apt,
+Depends: ${misc:Depends},
+         ca-certificates,
+         vayu-apt-keyrings,
+Replaces: vayu-apt-config,
+Breaks: vayu-apt-config,
+Description: APT configs for droidian-vayu github stable apt repo

@@ -1,0 +1,38 @@
+#!/bin/bash
+
+set -e
+
+fn_clean_previous_files() {
+    ## Clean previous config files if found
+    arr_dirs_to_check=( \
+        "/etc/apt/sources.list.d" \
+        "/etc/apt/preferences.d" \
+        "/usr/share/vayu-apt-config/preferences.d" \
+        "/usr/share/vayu-apt-config/sources.list.d" \
+        "/usr/lib/adaptation-droidian-vayu/sources.list.d" \
+        "/usr/lib/adaptation-droidian-vayu/preferences.d" \
+        )
+
+    arr_patterns=( "vayu.sources" "10-vayu" "*vayu*list" )
+
+    for dir in ${arr_dirs_to_check[@]}; do
+        if [ -d "${dir}" ]; then
+	    for patt in ${arr_patterns[@]}; do
+	        for file in $(find ${dir} -name "${patt}"); do
+		    rm -v ${file}
+	        done
+	    done
+        fi
+    done
+}
+
+case "$1" in
+    install)
+        fn_clean_previous_files
+        ;;
+    upgrade)
+        fn_clean_previous_files
+        ;;
+esac
+
+exit 0
