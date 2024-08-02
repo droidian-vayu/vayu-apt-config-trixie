@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: vayu-apt-config-stable
-Source: https://github.com/droidian-vayu/vayu-apt-config-stable
+Upstream-Name: vayu-apt-config-trixie
+Source: https://github.com/droidian-vayu/vayu-apt-config-trixie
 
 Files: *
 Copyright: 2024 berbascum <berbascum@ticv.cat>

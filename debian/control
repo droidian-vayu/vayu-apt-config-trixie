@@ -1,4 +1,4 @@
-Source: vayu-apt-config-stable
+Source: vayu-apt-config-trixie
 Maintainer: droidian-vayu Github Org
 Section: misc
 Priority: optional
@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 10),
                debhelper-compat (= 13),
 Standards-Version: 4.5.0.3
 
-Package: vayu-apt-config-stable
+Package: vayu-apt-config-trixie
 Architecture: all
 Pre-Depends: apt,
 Depends: ${misc:Depends},
@@ -14,4 +14,4 @@ Depends: ${misc:Depends},
          vayu-apt-keyrings,
 Replaces: vayu-apt-config,
 Breaks: vayu-apt-config,
-Description: APT configs for droidian-vayu github stable apt repo
+Description: APT configs for droidian-vayu github trixie apt repo

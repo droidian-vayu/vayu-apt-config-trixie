@@ -1,6 +1,6 @@
 Architectures: arm64,all
 Components: main
-Suites: stable
+Suites: trixie
 Uris:  https://droidian-vayu.github.io/apt-xiaomi-vayu
 Types: deb
 Signed-By: /etc/apt/trusted.gpg.d/vayu-apt.gpg

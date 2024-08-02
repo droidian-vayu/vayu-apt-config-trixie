@@ -1,2 +1,0 @@
-/usr/share/vayu-apt-config/sources.list.d/vayu-stable.sources /etc/apt/sources.list.d/vayu-stable.sources
-/usr/share/vayu-apt-config/preferences.d/10-vayu-stable /etc/apt/preferences.d/10-vayu-stable

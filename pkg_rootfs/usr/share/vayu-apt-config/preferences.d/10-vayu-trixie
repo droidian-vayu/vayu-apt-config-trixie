@@ -1,0 +1,3 @@
+Package: *
+Pin: origin droidian-vayu release a=trixie
+Pin-Priority: 1080

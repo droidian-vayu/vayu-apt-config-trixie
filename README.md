@@ -1,1 +1,1 @@
-# vayu-apt-config-stable
+# vayu-apt-config-trixie
