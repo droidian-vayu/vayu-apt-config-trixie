@@ -1,0 +1,9 @@
+vayu-apt-config-trixie (1+git20240802203451.551fbc6.trixie) trixie; urgency=medium
+
+  [berbascum]
+  * (551fbc6) Update .gitignore 
+  * (37c641d) Replace release strings: from stable to trixie 
+  * (75f744f) Add debian packaging 
+  * (bcdcde5) Add the pkg_rootfs dir with the package files 
+
+ -- berbascum <berbascum@ticv.cat>  Fri, 02 Aug 2024 20:34:51 +0200
