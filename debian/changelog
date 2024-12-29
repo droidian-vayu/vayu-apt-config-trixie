@@ -1,9 +1,11 @@
-vayu-apt-config-trixie (1+git20240802203451.551fbc6.trixie) trixie; urgency=medium
+vayu-apt-config-trixie (2+git20241229233632.ddb96d4.trixie) trixie; urgency=medium
 
   [berbascum]
+  * (ddb96d4) (preferences) pin: fix the Pin definition 
+  * (02db52a) Build release: pre-configs before building new version 1-trixie 
   * (551fbc6) Update .gitignore 
   * (37c641d) Replace release strings: from stable to trixie 
   * (75f744f) Add debian packaging 
   * (bcdcde5) Add the pkg_rootfs dir with the package files 
 
- -- berbascum <berbascum@ticv.cat>  Fri, 02 Aug 2024 20:34:51 +0200
+ -- berbascum <berbascum@ticv.cat>  Sun, 29 Dec 2024 23:36:32 +0100
